@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-image: url("https://www.ethicalpartnership.co.uk/wp-content/uploads/2019/05/forest-hd-wallpaper-landscape-129105-1920x500.jpg");
+    /* background-size: 100 X 50; */
+    background-repeat: no-repeat;
+
+   
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    /* opacity: 0.5; */
+}
+.second{
+    display: flex;
+    justify-content: center;
+    /* font-size: 2rem; */
+    align-items: center;
+    color: white;
+}
+.budget  h1{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+}
+.second h1{
+    font-size: 2.5rem;
+    
+}
+.date{
+    font-size: 0rem;
+}
+.income,.expenses{
+    display: flex;
+    justify-content: space-around;
+}
+.first{
+    margin: 0rem 1rem;
+    color: black;
+}
+.income{
+    margin-top: 2rem;
+    background-color: rgb(74, 197, 197);
+    width: fit-content;
+    color: white;
+    padding: 0.6rem 1.8rem;
+}
+.expenses{
+    margin-top: 1rem;
+    background-color: rgb(241, 97, 97);
+    padding: 0.6rem 1.5rem;
+    width: fit-content;
+    color:white;
+    margin-bottom: 1rem;
+
+}
+.second1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.second1 h1{
+    font-size: 3rem;
+    color: rgb(255, 248, 248);
+    margin: 0rem 0rem;
+}
+.second h3{
+    margin: 0rem 0.1rem;
+}
+.top{
+    display: flex;
+    /* position: absolute; */
+    /* width: 100vw; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* margin-top: 1.3rem; */
+    /* border: 1px solid black; */
+    height: 4rem;
+    /* height: fit-content; */
+    background-color: rgba(128, 128, 128, 0.137);
+}
+.top select,input,img{
+    margin: 0rem 1rem;
+}
+.top select {
+    width: 3rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+#item{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    padding: 0rem 1rem;
+    border: 0.5px solid black;
+    outline: none;
+}
+#item::placeholder, #Value::placeholder{
+    color: black;
+    /* padding-left: 1rem; */
+    
+    font-weight: 300;
+}
+#Value{
+    width: 5rem;
+    height: 2.5rem;
+    padding: 0rem 1rem;
+    outline: none;
+    border-radius: 5px;
+
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+
+ #plus #red .abc{
+    color: red;
+}
+.abc i{
+    height: 20rem;
+}
+ .second1 h2{
+    margin-right: 1rem;
+    font-size: 3rem;
+}
+.abc:hover{
+    transform: translateY(4px);
+}
+.container{
+    margin-top: 2rem;
+    display: flex;
+    /* width: 100vw; */
+    justify-content: center;
+    
+}
+.inc{
+    width: 30rem;
+    
+    /* background-color: red; */
+}
+.exp{
+    width: 30rem;
+  margin-left: 2rem;
+    /* background-color: violet    ; */
+}
+
+.item{
+    min-height: 2.5rem;
+    height: fit-content;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    /* background-color: blue; */
+    transition: all 1s;
+}
+.one{
+    display: flex;
+    /* margin: 0rem 2rem; */
+    color:#28B9B5;
+    transition: transform 0.3s;
+
+}
+.item button{
+    font-size: 1.3rem;
+    /* height: 1.6rem; */
+    background-color: white;
+    border: none;
+    /* margin-left: 1.3rem; */
+    color: #28B9B5;
+    display: none;
+    cursor: pointer;
+    /* transition: transform 1s; */
+}
+.inc h2{
+    color:#28B9B5 ;
+}
+.exp h2{
+    color: red;
+}
+.x{
+    
+    display: flex;
+    margin: 0 1rem;
+    align-items: center;
+    /* transition: transform 0.3s; */
+}
+
+.desc{
+    margin: 0px 2rem;
+}
+.lastItem:hover .item button{
+    /* transition: trasform 1s; */
+    display: block;
+/* color: black; */
+}
+.lastItem:hover .one{
+    transform: translateX(-1rem);
+}
+.exp .exit,.exp .one{
+    color: red;
+}
+select:focus,input:focus{
+    border: 1px solid #28B9B5 !important ;
+    outline: none;
+}
+.red { color: red !important;}
+.abc{
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #28B9B5 ;
+    cursor: pointer;
+   }
+.red-focus:focus{
+    border: 1px solid red !important  ;
+    outline: none !important;
+}

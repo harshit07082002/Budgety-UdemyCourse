@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media1.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="budget">
+            <div class="con">
+            <h1>Available Budget on &nbsp; </h1>
+            <h1 class="date">May </h1>
+        </div>
+            <div class="second1" >
+            <h2 >+</h2>
+            <h1>0</h1>
+        </div>
+        </div>
+        <div class="income">
+            <h3 class="first">Income</h3>
+            <div class="second">
+                <h3  >+</h3>
+                <h3 id="fullInc">0</h3>
+            </div>
+        </div>
+        <div class="expenses">
+            <h3 class="first">Expenses</h3>
+            <div class="second">
+                <h3 >-</h3>
+                <h3 id="fullExp">0</h3>       
+            </div>
+        </div>
+    </header>
+    <main>
+       
+        <section class="top">
+           
+            <select name="plus" id="plus"> 
+                <option id="green" value="inc">+</option>
+                <option id="red" value="exp">-</option>
+            </select>
+        <input type="text" name="desc" id="item" required placeholder="Add Description">
+        <input type="number" name="value" id="Value" value="v" required placeholder="Value">  
+    
+        <button class="abc">
+            <i class="ion-ios-checkmark-outline">  </i>
+        </button>
+        
+        </section>
+
+        <div class="container">
+            <div class="inc">
+                <h2>Incomes</h2>
+               <br>  
+               <hr>
+            </div>
+            <div class="exp">
+                <h2>Expenses</h2>
+               <br> <hr>
+              </div>
+
+        </div>
+    
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

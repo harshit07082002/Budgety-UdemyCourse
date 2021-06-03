@@ -1,0 +1,34 @@
+@media screen and (max-width:475px) {
+   .top{
+       flex-wrap: wrap;
+       height: fit-content;
+   }
+   html{
+       font-size: 70%;
+   }
+   #item{
+    width: 10rem;
+    font-size: 0.8rem;
+   
+}
+#Value{
+    width: 2rem;
+    font-size: 0.8rem;
+}
+.abc{
+    align-self: center;
+    justify-self: center;
+}
+}
+@media screen and (max-width:218px) {
+    html{
+        font-size: 50%;
+    }
+    
+}
+@media screen and (max-width:327px) {
+    .item{
+        flex-wrap: wrap;
+    }
+    
+}
